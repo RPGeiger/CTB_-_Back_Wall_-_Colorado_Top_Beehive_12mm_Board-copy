@@ -127,7 +127,8 @@
         },
         {
           "name": "yDist",
-          "ioValue": 0
+          "ioValue": -370,
+          "currentEquation": "-370"
         },
         {
           "name": "zDist",
@@ -379,8 +380,8 @@
         },
         {
           "name": "MoveY",
-          "ioValue": 6,
-          "currentEquation": "6"
+          "ioValue": -364,
+          "currentEquation": "-364"
         },
         {
           "name": "MoveZ",
@@ -489,7 +490,7 @@
             },
             {
               "name": "yDist",
-              "ioValue": 6
+              "ioValue": -364
             },
             {
               "name": "zDist",
@@ -608,7 +609,7 @@
       "type": "SVG",
       "repoOwner": "RPGeiger",
       "repoName": "CTB_-_Back_Wall_-_Colorado_Top_Beehive_12mm_Board-copy",
-      "SVGwidth": 18
+      "SVGwidth": 200
     },
     {
       "atomType": "Import",
