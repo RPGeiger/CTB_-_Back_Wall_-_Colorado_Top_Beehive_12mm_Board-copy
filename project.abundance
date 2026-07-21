@@ -112,18 +112,6 @@
       "sortDirection": "Left"
     },
     {
-      "atomType": "Import",
-      "x": 0.09166666666666667,
-      "y": 0.24822695035460993,
-      "uniqueID": "id-543",
-      "fileName": "CTB_-_Back_Wall_-_Colorado_Top_Beehive_12mm_Board.gcode.svg",
-      "name": "Import",
-      "type": "SVG",
-      "repoOwner": "RPGeiger",
-      "repoName": "CTB_-_Back_Wall_-_Colorado_Top_Beehive_12mm_Board-copy",
-      "SVGwidth": 898.1
-    },
-    {
       "atomType": "Move",
       "x": 0.353125,
       "y": 0.25531914893617025,
@@ -146,18 +134,6 @@
           "ioValue": 0
         }
       ]
-    },
-    {
-      "atomType": "Import",
-      "x": 0.10625,
-      "y": 0.5626477541371159,
-      "uniqueID": "id-551",
-      "fileName": "CTB_-_Bottom-Slot_Backwall_-_Colorado_Top_Beehive_12mm_Board.gcode.svg",
-      "name": "Import",
-      "type": "SVG",
-      "repoOwner": "RPGeiger",
-      "repoName": "CTB_-_Back_Wall_-_Colorado_Top_Beehive_12mm_Board-copy",
-      "SVGwidth": 200
     },
     {
       "atomType": "GitHubMolecule",
@@ -403,7 +379,8 @@
         },
         {
           "name": "MoveY",
-          "ioValue": 6
+          "ioValue": 6,
+          "currentEquation": "6"
         },
         {
           "name": "MoveZ",
@@ -620,6 +597,30 @@
       "unitsKey": "Inches",
       "fileTypeVersion": 1,
       "lastReloadedFromGithubAt": 1784450848987
+    },
+    {
+      "atomType": "Import",
+      "x": 0.13055555555555554,
+      "y": 0.6548463356973996,
+      "uniqueID": "id-635",
+      "fileName": "CTB_-_Bottom-Slot_Backwall_-_Colorado_Top_Beehive_12mm_Board.gcode.svg",
+      "name": "Import",
+      "type": "SVG",
+      "repoOwner": "RPGeiger",
+      "repoName": "CTB_-_Back_Wall_-_Colorado_Top_Beehive_12mm_Board-copy",
+      "SVGwidth": 18
+    },
+    {
+      "atomType": "Import",
+      "x": 0.12944444444444445,
+      "y": 0.25531914893617025,
+      "uniqueID": "id-637",
+      "fileName": "CTB_-_Back_Wall_-_Colorado_Top_Beehive_12mm_Board.gcode.svg",
+      "name": "Import",
+      "type": "SVG",
+      "repoOwner": "RPGeiger",
+      "repoName": "CTB_-_Back_Wall_-_Colorado_Top_Beehive_12mm_Board-copy",
+      "SVGwidth": 898.1
     }
   ],
   "allConnectors": [
@@ -639,24 +640,24 @@
       "ap2ID": "id-465"
     },
     {
-      "ap2Name": "geometry",
-      "ap1ID": "id-543",
-      "ap2ID": "id-220"
-    },
-    {
       "ap2Name": "retain",
       "ap1ID": "id-545",
       "ap2ID": "id-97"
     },
     {
-      "ap2Name": "geometry",
-      "ap1ID": "id-551",
-      "ap2ID": "id-224"
-    },
-    {
       "ap2Name": "remove",
       "ap1ID": "id-113",
       "ap2ID": "id-97"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-635",
+      "ap2ID": "id-224"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-637",
+      "ap2ID": "id-220"
     }
   ],
   "unitsKey": "MM",
