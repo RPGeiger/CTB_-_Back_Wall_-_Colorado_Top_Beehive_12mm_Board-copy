@@ -127,8 +127,8 @@
         },
         {
           "name": "yDist",
-          "ioValue": -370,
-          "currentEquation": "-370"
+          "ioValue": -300,
+          "currentEquation": "-300"
         },
         {
           "name": "zDist",
@@ -380,8 +380,8 @@
         },
         {
           "name": "MoveY",
-          "ioValue": -364,
-          "currentEquation": "-364"
+          "ioValue": -294,
+          "currentEquation": "-294"
         },
         {
           "name": "MoveZ",
@@ -490,7 +490,7 @@
             },
             {
               "name": "yDist",
-              "ioValue": -364
+              "ioValue": -294
             },
             {
               "name": "zDist",
